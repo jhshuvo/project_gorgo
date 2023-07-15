@@ -1,0 +1,84 @@
+
+/* ----common css start------ */
+body{
+    margin: 0;
+   font-family: sans-serif;  
+   font-size: 16px;
+   font-weight: 600;
+   color: #1B1834;
+}
+
+/* ----common css end------ */
+
+/* ----header stert-------- */
+header{
+    padding: 10px;
+}
+.container{
+    width: 55%;
+    margin: 0 auto;
+    /* border: 1px solid black; */
+    overflow: hidden;
+
+}
+
+.logo{
+    width: 15%;
+    /* border: 1px solid black; */
+    float: left;
+
+}
+.logo img{
+    width: 100%;
+}
+.menu{
+    
+    width: 50%;
+    /* border: 1px solid black; */
+    float:left;
+
+    
+}
+.menu ul{
+    float: right;
+}
+.menu ul li{
+    list-style: none;
+    float: left;
+   
+}
+.menu ul li a{
+    display: inline-block;
+    padding: 0 25px;
+    color: #1D3360;
+    transition: .33s;
+    text-decoration: none;
+}
+/* .menu ul li:first-child a{
+    padding-left: 0;
+    color: rgb(223, 15, 15);
+} */
+.menu ul li a:hover{
+    color: #FF6162;
+    border-bottom: 2px solid ;
+}
+
+
+
+.btn_nav{
+    /* width: 45%; */
+    display: inline-block;
+    float: right;
+}
+button{
+   
+    padding: 18px  24px;
+    border-radius: 5px;
+    border-style: none;
+    background-color: #FF6162;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+
+}
+
+/* ----header end-------- */ 
