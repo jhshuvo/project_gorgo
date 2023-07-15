@@ -80,5 +80,9 @@ button{
     font-weight: 600;
 
 }
+button:hover{
+    background-color: #1B1834;
+}
+
 
 /* ----header end-------- */ 
